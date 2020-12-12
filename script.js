@@ -2,7 +2,7 @@ var featureExtractor, classifier, video, loss, redCount, blueCount
 
 redCount = blueCount = 0
 
-function setup() {
+function setup() 
   noCanvas()
   video = createCapture(VIDEO)
   video.parent('video')
